@@ -1,0 +1,16 @@
+{
+  "_comment": "通用 vault PPT 翻译排除清单。path_prefixes 相对于 vault 根。",
+  "exact_paths": [],
+  "path_prefixes": [
+    "工作/90-99 归档/",
+    "_meta/",
+    ".obsidian/",
+    ".trash/",
+    "工作/60-69 知识库/65 提示词库/",
+    "工作/60-69 知识库/66 可视化/",
+    "工作/60-69 知识库/67 BI/"
+  ],
+  "_note_path_prefixes": "65 提示词库:memory 规则 AI 提示词/skills/CLAUDE.md/templates 不算翻译; 66/67 BI 已 bi_translate_clean 处理过(已翻译的会通过 translated_at frontmatter 自动跳过,这里再排路径前缀是冗余防御)",
+  "duplicates_skip": [],
+  "already_bilingual_skip": []
+}

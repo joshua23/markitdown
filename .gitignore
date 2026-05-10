@@ -1,5 +1,13 @@
 .vscode
 
+# vault 整理工具的中间产物 - 含具体文件路径,绝不上传
+_*_translate/candidates.json
+_format_clean/candidates.json
+_vault_classification/
+_vault_samples.json
+_para_targets.json
+.translation_backups/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
