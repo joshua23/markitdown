@@ -1,0 +1,14 @@
+{
+  "_comment": "格式清洗排除清单 (全 vault 扫描版)。",
+  "exact_paths": [],
+  "path_prefixes": [
+    ".obsidian/",
+    ".trash/",
+    "_meta/",
+    "工作/90-99 归档/",
+    "工作/60-69 知识库/65 提示词库/",
+    "工作/00-09 蓝图/05 复盘与洞察/Claude对话萃取/"
+  ],
+  "_note": "90-99 归档:memory 规则保留历史完整性;_meta:备份目录;65 提示词库:memory 规则不翻译/不清洗 AI 提示词。已 BI 翻译过的 66/67 会通过 already_translated_at 自动跳过(冗余路径排除可加但非必需)。",
+  "duplicates_skip": []
+}
